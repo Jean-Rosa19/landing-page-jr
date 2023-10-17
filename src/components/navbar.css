@@ -1,0 +1,133 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor)
+    
+}
+
+.logo {
+    width: 80px;
+    border-radius: 50%;
+    
+}
+
+div button a {
+    color: white;
+    
+}
+
+div button {
+    cursor: pointer;
+}
+
+nav, a, h3{
+    background-color: transparent;
+}
+
+nav a{
+    margin: 0 2rem;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--secondaryColor);
+}
+
+.contact {
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+      
+      height: auto; /* Ajuste a altura conforme necessário */
+      flex-direction: row; /* Alinhe os elementos verticalmente */
+     
+    }
+
+    header nav a {
+        padding: 10px;
+    }
+  
+    nav {
+      margin-top: 10px; /* Ajuste a margem superior conforme necessário */
+    }
+  
+    nav a {
+      margin: 5px 0; /* Ajuste a margem conforme necessário */
+    }
+  
+    .nav-btn {
+      visibility: visible; /* Torne o botão de navegação visível */
+      opacity: 1;
+    }
+  }
+  
+
+section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.section-text {
+    color: white;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+
+}
+
+.section-text h1 {
+    font-size: 2rem;
+  
+}
+
+.section-text p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.section-text button {
+    margin: 10px;
+    height: 40px;
+    text-align: left;
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    display: inline-flex;
+} 
+
+.section-text div {
+    text-align: left;
+}
+
+.faplay {
+    margin-right: 10px;
+}
+
+.section-text div button:last-child {
+    border: 1px solid white;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+  
+}
+
+.section-img {
+    position: relative;
+}
+
+.section-img img{
+    width: 500px;
+}

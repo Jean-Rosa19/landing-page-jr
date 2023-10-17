@@ -1,0 +1,48 @@
+.sobre {
+   
+    font-family: Arial, sans-serif;
+    background-color:#292F33;
+    padding: 20px;
+    text-align: left;
+    height:100vh;
+   
+  }
+
+  .sobre p {
+    color: white;
+  }
+
+  .sobre p a{
+    color: white;
+  }
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    font-family: Arial, sans-serif;
+    background-color: #55ACEE;   
+}
+
+.titulo h2 {
+    padding-left: 20px;
+    color: white;
+}
+
+.titulo button{
+    padding-right: 80px;
+}
+
+.return {
+    background-color:transparent;
+    border: none;
+}
+
+.guitar {
+    cursor: pointer;
+    color: white;
+}
+
+.guitar:hover {
+    color: yellow
+}
